@@ -5,7 +5,7 @@ composer create-project --prefer-dist laravel/laravel laravel-api-demo
 
 ## To create the Books model, we can run
 This will create a Contact model and a migration file.<br>
-> app/models/Books.php
+> app/models/Books.php<br>
 > database/migrations/xxxxxx_create_books_table
 ```sh
 php artisan make:model Books -m
