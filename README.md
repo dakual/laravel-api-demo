@@ -32,3 +32,12 @@ php artisan make:controller BookController
 php artisan serve
 ```
 
+## Usage
+These route binds functions to specific URL which is listed below:
+
+GET /books, mapped to the index() method
+GET /books/{id}, mapped to the show() method
+POST /books, mapped to the store() method
+PUT /books/{id}, mapped to the update() method
+DELETE /books/{id}, mapped to the destroy() method
+
