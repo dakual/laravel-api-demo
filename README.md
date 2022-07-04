@@ -35,9 +35,9 @@ php artisan serve
 ## Usage
 These route binds functions to specific URL which is listed below:
 
-GET /books, mapped to the index() method
-GET /books/{id}, mapped to the show() method
-POST /books, mapped to the store() method
-PUT /books/{id}, mapped to the update() method
+GET /books, mapped to the index() method<br>
+GET /books/{id}, mapped to the show() method<br>
+POST /books, mapped to the store() method<br>
+PUT /books/{id}, mapped to the update() method<br>
 DELETE /books/{id}, mapped to the destroy() method
 
